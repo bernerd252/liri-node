@@ -1,0 +1,4 @@
+in the command line type "node liri " and then you can chose to type either "movie", "spotify", "twitter" or "do-what-it-says", depending on what you want to search. In the instance of typing "movie", "spotify" or "twitter"
+you would then have to specify which movie title, song title or twitter account you wanted to search. For example if you wanted to find out about the movie Space Jam you would type "node liri movie space jam". If you
+wanted to search for the song Crazy in Love, you would type "node liri spotify crazy in love" and if you wanted to look at Kanye West's last 20 tweets you would type "node liri twitter kanyewest" (note that you need to 
+type their actual twitter handle here). 
