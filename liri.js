@@ -91,11 +91,12 @@ fs.appendFile("spotify.txt", movieName + "  ", function(err) {
 if (process.argv[2] == "twitter"){
 var Twitter = require('twitter');
 var keys = require("./keys.js") 
+
 var client = new Twitter({
-  consumer_key: "sdCowAT8TUYdLdxArVsQrn13X",
-  consumer_secret: "G8NjOwQL8QjcZnrHRpOU9ctTHijTwyLhgozBaMU3V7tnkGjal2",
-  access_token_key: "784178709167308801-tXLroj2pvzwrl4dESMzAOrblH7aoKdx",
-  access_token_secret: "RZAOM4G0zeGOsQLbPhuQBOfus0ycnndBDBV8RyeIqVelc"
+  consumer_key: keys.twitterKeys.consumer_key,
+  consumer_secret: keys.twitterKeys.consumer_secret,
+  access_token_key: keys.twitterKeys.access_token_key,
+  access_token_secret: keys.twitterKeys.access_token_secret
 });
  // console.log (keys)
 var screen_name = process.argv[3];
